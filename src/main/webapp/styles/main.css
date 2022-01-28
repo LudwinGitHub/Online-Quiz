@@ -1,0 +1,137 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.logo {
+    color: orangered;
+    font-size: 2em;
+    font-weight: 400;
+}
+.login-button {
+    background-color: orangered;
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .1em;
+}
+
+.login-button:hover {
+    opacity: 80%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.categories > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.categories > ul > li {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-weight: 500;
+    border: 2px solid;
+    color: white;
+    opacity: 0.8;
+}
+
+.categories > ul > li:hover {
+    opacity: 1;
+}
+
+.categories > ul > li > a {
+    color: inherit;
+    display: block;
+    text-align: center;
+}
+
+.categories > ul > li {
+    background-color: orangered;
+}
+
+.quiz {
+    border: 1px solid orangered;
+    border-radius: 4px;
+    background-color: orange;
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.quiz:hover {
+    padding: 1rem;
+}
+
+.quiz-header {
+    margin: 0;
+}
+
+.quiz-details {
+    color: #757575;
+    font-size: 0.8rem;
+}
+
+.quiz-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.quiz-votes {
+    display: inline;
+    color: #007AFF;
+}
+
+.quiz-bar > p, h2,a {
+    margin: 0 4px;
+    border: 1px orangered;
+    align-items: center;
+    align-content: center;
+}
+
+.upvote:hover {
+    color: #4CD964;
+}
+
+.downvote:hover {
+    color: #FF3B30;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.quiz-link-name,
+.quiz-link-name:visited {
+    color: orange;
+    word-wrap: break-word;
+}
+
+.quiz-link,
+.quiz-link:visited {
+    color: lightslategray;
+    word-wrap: break-word;
+}
